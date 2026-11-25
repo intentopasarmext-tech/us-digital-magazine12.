@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>US Digital Magazine | Practical AI, Tech and Productivity Guides</title>
+<meta name="description" content="Practical guides on artificial intelligence, technology and productivity for everyday users in the United States.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2314181f'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='%23f2b705' font-family='Georgia'%3EU%3C/text%3E%3C/svg%3E">
+<!-- ADSENSE: when Google asks for a verification snippet, paste it here. Ads stay OFF until you edit ADS in the script. -->
+<!-- Canonical and og:url are added by the script once you set CFG.domain. -->
+<meta name="theme-color" content="#14181f">
+<meta property="og:type" content="website"><meta property="og:site_name" content="US Digital Magazine">
+<meta property="og:title" content="US Digital Magazine | Practical AI, Tech and Productivity Guides">
+<meta property="og:description" content="Practical guides on artificial intelligence, technology and productivity for everyday users in the United States.">
+<meta name="twitter:card" content="summary">
+<style>
+:root{--bg:#f5f7fa;--card:#fff;--ink:#14181f;--mute:#566070;--line:#dde2ea;--accent:#0b6e6e;--hi:#f2b705;--r:10px}
+@media all{:root[data-theme=dark]{--bg:#10141a;--card:#181d25;--ink:#eef1f5;--mute:#a3adbb;--line:#2a313c;--accent:#4fd1c5;--hi:#f2b705}}
+*{box-sizing:border-box}html{scroll-padding-top:4rem}
+body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.2;margin:0 0 .6em}
+a{color:var(--accent)}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--hi);outline-offset:2px}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:var(--hi);color:#000;padding:.5rem;z-index:99}
+.wrap{max-width:68rem;margin:0 auto;padding:0 1.1rem}
+header.site{background:var(--ink);color:#fff;position:sticky;top:0;z-index:10}
+header.site .wrap{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;min-height:3.5rem}
+.logo{font:700 1.25rem Georgia,serif;color:#fff;text-decoration:none;margin-right:auto}.logo b{color:var(--hi)}
+#nav ul{display:flex;gap:1rem;list-style:none;margin:0;padding:0}#nav a{color:#dfe5ee;text-decoration:none;font-size:.95rem}#nav a:hover{color:#fff;text-decoration:underline}
+#menu{display:none;background:none;border:1px solid #5a6472;color:#fff;border-radius:6px;padding:.35rem .7rem}
+form.s{display:flex;gap:.3rem}form.s input{padding:.4rem .6rem;border-radius:6px;border:1px solid #5a6472;background:#fff;color:#000;width:11rem}
+form.s button{padding:.4rem .8rem;border:0;border-radius:6px;background:var(--hi);font-weight:700;cursor:pointer}
+@media(max-width:760px){#menu{display:block}#nav{display:none;width:100%}#nav.open{display:block}#nav ul{flex-direction:column;padding-bottom:.6rem}form.s{width:100%}form.s input{flex:1}}
+.hero{padding:2.5rem 0 1rem}.hero h1{font-size:clamp(1.8rem,5vw,3rem);max-width:20ch}.hero p{color:var(--mute);max-width:55ch}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 1.5rem}
+.chips a{border:1px solid var(--line);background:var(--card);padding:.3rem .8rem;border-radius:99px;text-decoration:none;color:var(--ink);font-size:.9rem}
+.chips a[aria-current=true]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.grid{display:grid;gap:1.1rem;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));padding-bottom:2rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:1.1rem}
+.card h3{font-size:1.2rem}.card h3 a{color:var(--ink);text-decoration:none}.card h3 a:hover{text-decoration:underline}
+.meta{color:var(--mute);font-size:.85rem}
+article.post,.page{max-width:44rem;margin:0 auto;padding:2rem 1.1rem 3rem}
+article.post h1,.page h1{font-size:clamp(1.7rem,4.5vw,2.4rem)}article.post p,article.post li,.page p,.page li{font-size:1.06rem}
+.note{border-left:4px solid var(--hi);background:var(--card);padding:.8rem 1rem;border-radius:0 var(--r) var(--r) 0}
+footer.site{border-top:1px solid var(--line);padding:1.5rem 0;color:var(--mute);font-size:.9rem}
+footer.site ul{display:flex;flex-wrap:wrap;gap:1rem;list-style:none;padding:0}
+.ad-slot{min-height:0}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+#view:focus{outline:none}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}#nav a[aria-current]{color:#fff;text-decoration:underline}
+@media(max-width:760px){#nav a{display:block;padding:.55rem 0}.chips a{padding:.55rem .9rem}.hero{padding-top:1.6rem}.hbtn,form.s button{min-height:40px}}
+.hbtn{background:none;border:1px solid #5a6472;color:#fff;border-radius:6px;padding:.35rem .7rem;cursor:pointer}
+.badge{display:inline-block;background:var(--hi);color:#000;border-radius:4px;padding:0 .4rem;font-size:.75rem;font-weight:700}
+.draft{border-left:4px solid var(--hi);padding:.6rem 1rem;background:var(--card)}
+.toc{border:1px solid var(--line);background:var(--card);border-radius:var(--r);padding:1rem 1.2rem;margin:1.2rem 0}.toc ol{margin:.4rem 0 0;padding-left:1.2rem}
+.ad{margin:1.8rem 0;text-align:center;min-height:90px}.ad small{display:block;color:var(--mute);font-size:.7rem;margin-bottom:.2rem}
+.share{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.5rem 0}.share a,.share button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:6px;padding:.35rem .8rem;font-size:.9rem;text-decoration:none;cursor:pointer}
+.tw{overflow-x:auto}table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.95rem}th,td{border:1px solid var(--line);padding:.5rem;text-align:left;vertical-align:top}th{background:var(--card)}
+details{border:1px solid var(--line);background:var(--card);border-radius:var(--r);padding:.6rem 1rem;margin:.6rem 0}summary{cursor:pointer;font-weight:600}
+.related{max-width:68rem;margin:0 auto;padding:0 1.1rem 3rem}
+article.post figure{margin:1rem 0}article.post img{max-width:100%;height:auto;border-radius:var(--r)}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="#/">US Digital <b>Magazine</b></a>
+<button id="menu" class="hbtn" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav" aria-label="Main"><ul></ul></nav>
+<button id="theme" class="hbtn" aria-pressed="false">Dark</button>
+<form class="s" id="sf" role="search"><input id="q" type="search" aria-label="Search articles" placeholder="Search"><button>Search</button></form>
+</div></header>
+<main id="main"><div id="view" tabindex="-1"></div></main>
+<footer class="site"><div class="wrap"><ul>
+<li><a href="#/about">About Us</a></li><li><a href="#/contact">Contact Us</a></li>
+<li><a href="#/privacy">Privacy Policy</a></li><li><a href="#/terms">Terms and Conditions</a></li></ul>
+<p>&copy; <span id="yr"></span> US Digital Magazine. All rights reserved.</p></div></footer>
+<noscript><div class="page"><h1>US Digital Magazine</h1><p>This site needs JavaScript to display its articles. Please enable JavaScript and reload the page.</p></div></noscript>
+<template id="a-ai-prompt-basics">
+<h1>How to Write Clearer Prompts for AI Chatbots</h1>
+<p>Most people who feel let down by an AI chatbot did not get a bad tool. They sent a request that left out the information the tool needed. A chatbot cannot see your project, your audience or your standards. It can only work with the words you give it, so the quality of the answer depends heavily on the quality of the request. This guide explains why vague prompts fail, gives you a simple four-part framework, shows before-and-after examples, and covers the mistakes that cost people the most time. The advice is general best practice that applies to most modern chatbots, and the approach works the same way whether you are drafting an email, studying for a class or planning a trip.</p>
+<h2>Why Vague Prompts Produce Vague Answers</h2>
+<p>A chatbot predicts a helpful response from the text you provide. When your request is short and open-ended, many different answers are equally plausible, so the tool tends to produce something generic that fits almost anyone. A request like "write a cover letter" could describe thousands of jobs and writers. The result reads like it was written for nobody in particular because, from the tool's point of view, it was.</p>
+<p>Specific prompts narrow the range of reasonable answers. Each detail you add, such as the job title, the tone or the length, removes options and moves the response closer to what you actually need. Writing a good prompt is less about clever wording and more about deciding what you want before you ask.</p>
+<h2>A Simple Framework: Goal, Context, Constraints, Format</h2>
+<p>You do not need a special template, but four questions cover most situations.</p>
+<ul>
+<li><strong>Goal:</strong> What should the finished result accomplish? "Convince my landlord to approve a pet" is a goal. "Write something about pets" is only a topic.</li>
+<li><strong>Context:</strong> What does the chatbot need to know that it cannot guess? Include the audience, your situation and anything you have already tried.</li>
+<li><strong>Constraints:</strong> What limits apply? Word count, reading level, tone, budget in U.S. dollars, deadlines or things to avoid.</li>
+<li><strong>Format:</strong> How should the answer be organized? A table, a numbered list, a short email or three options to choose from.</li>
+</ul>
+<p>You rarely need all four. Add whichever pieces are missing from your first attempt and leave out the rest.</p>
+<h2>Before and After: Prompts in Practice</h2>
+<p>The table below shows how the framework changes ordinary requests. The sample prompts are illustrations you can adapt, not results from a test.</p>
+<div class="tw"><table><thead><tr><th>Task</th><th>Weak prompt</th><th>Stronger prompt</th></tr></thead><tbody>
+<tr><td>Résumé</td><td>Improve my résumé.</td><td>Rewrite the summary below in three lines for a project manager role at a mid-sized software company. Keep it factual and avoid buzzwords.</td></tr>
+<tr><td>Study help</td><td>Explain photosynthesis.</td><td>Explain photosynthesis to a ninth-grade student in under 200 words, then give three practice questions with answers.</td></tr>
+<tr><td>Budgeting</td><td>Help me save money.</td><td>I earn $3,200 a month after taxes and spend $2,900. Here are my expenses. List five categories I could trim and explain the tradeoffs in a table.</td></tr>
+<tr><td>Email</td><td>Write an email to my boss.</td><td>Draft a polite, four-sentence email asking my manager to move our Friday meeting to Monday morning. Offer two time slots.</td></tr></tbody></table></div>
+<h2>Techniques That Help With Harder Tasks</h2>
+<p><strong>Give a role or audience.</strong> Asking the chatbot to explain something "for a busy small-business owner" changes vocabulary and depth. Treat the role as a guide for style, not as a guarantee of expertise.</p>
+<p><strong>Show an example.</strong> If you have a sample of the tone or structure you want, paste it and ask for the same style. An example often communicates more than a paragraph of description. Make sure you have the right to use any text you paste.</p>
+<p><strong>Break big jobs into steps.</strong> Instead of asking for a complete business plan, ask for an outline first, approve it, and then request one section at a time. Each step is easier to check and correct.</p>
+<p><strong>Invite questions.</strong> You can add a line such as "Ask me up to three questions if anything is unclear before you answer." This helps when you are not sure what information matters.</p>
+<p><strong>Iterate one change at a time.</strong> Treat the first reply as a draft. Ask for a single adjustment, such as shorter, more formal or with a clearer opening, so you can see what each change does.</p>
+<h2>Common Mistakes to Avoid</h2>
+<ul>
+<li><strong>Packing several unrelated requests into one message.</strong> Answers get thinner when the chatbot must juggle too many goals.</li>
+<li><strong>Assuming the tool remembers your situation.</strong> Details from another conversation may not carry over, so restate what matters.</li>
+<li><strong>Accepting the first draft without reading it.</strong> Skim for invented details, wrong names and off-target tone.</li>
+<li><strong>Asking for conflicting things.</strong> "Very detailed but under 50 words" forces a tradeoff you have not chosen.</li>
+<li><strong>Leaving out the audience.</strong> The same facts need different wording for a coworker, a customer or a child.</li>
+</ul>
+<h2>Privacy and Accuracy: What to Keep Out and What to Check</h2>
+<p>Do not paste passwords, full Social Security or financial account numbers, medical records or other sensitive information into a chatbot unless you have read and accept the service's privacy terms. Remove names and identifying details from documents when they are not needed for the task.</p>
+<p>Chatbots can state incorrect information in a confident tone. Verify names, dates, numbers, quotes and legal, medical or financial claims against a reliable source before you rely on them. A clear prompt improves the odds of a useful answer but does not make the answer correct.</p>
+<h2>Conclusion</h2>
+<p>Better prompts come from a short habit: decide what you want, tell the chatbot what it cannot know, name the limits and ask for a format you can use. Start with the goal, add context and constraints only where the first answer misses, and refine one change at a time. Then check anything important before you use it. Pick one task you do every week and rewrite your usual request with the four-part framework. Keeping a note of the versions that work well will save time on similar tasks later.</p>
+<section class="faq"><h2>Frequently Asked Questions</h2>
+<details><summary>How long should a prompt be?</summary><p>As long as it needs to be to include your goal, key context and limits. A few focused sentences are often enough. Length alone does not help if the added words do not give new information.</p></details>
+<details><summary>Do I need to use special "magic" phrases?</summary><p>No. Plain, specific language works well. Clear instructions matter more than any particular wording.</p></details>
+<details><summary>Why does the chatbot give different answers to the same prompt?</summary><p>Many chatbots generate responses with some variation, so repeated requests can produce different wording or details. If a result matters, compare more than one reply and verify the facts.</p></details>
+<details><summary>Is it safe to share work documents with a chatbot?</summary><p>That depends on your employer's policy and the service's privacy terms. Check both before sharing confidential material, and remove sensitive details when possible.</p></details>
+<details><summary>What should I do if the answer is wrong?</summary><p>Point out the specific error, provide the correct information if you have it, and ask for a revision. For important facts, confirm them with a reliable source instead of relying on the chatbot.</p></details></section>
+<h2>Sources and Further Reading</h2>
+<ul><li><a href="https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview" rel="noopener">Anthropic: Prompt engineering overview</a></li></ul>
+<p class="meta">This article reflects general guidance and does not report original testing of specific products.</p>
+</template>
+<template id="a-spot-phishing-emails">
+<h1>How to Spot a Phishing Email: 7 Warning Signs</h1>
+<p>Phishing emails try to rush you into clicking a link or handing over private information. A few quick checks catch most of them.</p>
+<h2>Check the sender and the tone</h2>
+<p>Read the full email address, not just the display name. Misspelled company names and unrelated domains are red flags, and so is pressure to act within hours.</p>
+<h2>Inspect links and attachments</h2>
+<p>On a computer, hover over a link to preview its destination. On a phone, press and hold it. Do not open attachments you did not expect, especially ZIP files or documents that ask you to enable macros.</p>
+<h2>Watch for requests for private data</h2>
+<p>Legitimate companies do not usually ask for passwords or full card numbers by email. Generic greetings and awkward wording can also signal a mass message, although polished scams exist.</p>
+<h2>What to do next</h2>
+<p>Skip the link and open the company's website or app yourself to check your account. If you already clicked, change that account's password, turn on two-factor authentication and report the message as phishing in your email app. If you shared card details, call your bank.</p>
+</template>
+<template id="a-fact-check-ai-answers">
+<h1>How to Fact-Check AI Answers Before You Use Them</h1>
+<p>AI chatbots write fluent answers even when the content is wrong, so a short routine helps keep mistakes out of your work.</p>
+<h2>Decide what needs checking</h2>
+<p>Names, dates, numbers, quotes and legal, medical or financial statements deserve verification. Casual phrasing usually does not.</p>
+<h2>Open the sources</h2>
+<p>If the chatbot gives a link or citation, open it and confirm the page exists and actually says what the answer claims. Then compare the claim with two reliable sources, such as official websites, government pages or established news outlets.</p>
+<h2>Test the answer</h2>
+<p>Ask the same question in a different way, or ask the chatbot what it is unsure about. Answers that change from one attempt to the next deserve extra caution.</p>
+<h2>Know when to ask a professional</h2>
+<p>For health, money or legal decisions, consult a qualified professional instead of relying on a chatbot.</p>
+<h2>Quick checklist</h2>
+<p>Is the claim specific? Is there a source? Did you open it? Do two independent sources agree?</p>
+</template>
+<template id="a-plan-your-week-20-minutes">
+<h1>How to Plan Your Week in 20 Minutes</h1>
+<p>Weekly planning works best when it is short and repeatable. This routine fits in 20 minutes and works with paper or any calendar app.</p>
+<h2>Minutes 1-5: Empty your head</h2>
+<p>Write every task, deadline and worry on one list without organizing it.</p>
+<h2>Minutes 6-10: Choose three priorities</h2>
+<p>Circle the three outcomes that would make the week a success. Everything else is secondary.</p>
+<h2>Minutes 11-15: Block time</h2>
+<p>Put each priority on your calendar first. Tasks without a time slot tend to slide to the next week.</p>
+<h2>Minutes 16-20: Leave buffer</h2>
+<p>Keep some gaps for surprises, check for conflicts and decide what you will say no to this week.</p>
+<h2>Make it stick</h2>
+<p>Plan at the same time every week and keep the list somewhere you will see it daily. If a week falls apart, simply restart the next one. Over time, the habit matters more than a perfect plan.</p>
+</template>
+<template id="a-declutter-inbox-and-files">
+<h1>How to Declutter Your Inbox and Digital Files</h1>
+<p>A cluttered inbox and messy folders cost time every day. Small, regular cleanups work better than one huge session.</p>
+<h2>Tame your inbox</h2>
+<p>For a week, unsubscribe from every newsletter you delete without reading, using the unsubscribe link in legitimate emails only. Then create three folders, Action, Waiting and Reference, and archive everything else.</p>
+<h2>Let filters work for you</h2>
+<p>Set rules so receipts and routine notifications skip your inbox and land in a folder you check weekly.</p>
+<h2>Clean up your files</h2>
+<p>Sort your Downloads folder by date, delete what you no longer need and move keepers into named folders. Use a consistent name pattern such as 2026-11-Project-Invoice so files sort and search easily.</p>
+<h2>Back up before you delete</h2>
+<p>Keep important documents in a second place, such as cloud storage or an external drive, before any big cleanup.</p>
+<h2>Keep it going</h2>
+<p>Spend ten minutes once a week on both. A short routine prevents the pile from returning.</p>
+</template>
+<template id="a-budget-gaming-setup-priorities">
+<h1>What Matters Most When Building a Budget Gaming Setup</h1>
+<p>A limited budget goes further when you spend on what you will notice most. Prices and products change often, so use this as a framework and check current reviews before you buy.</p>
+<h2>Start with the games you play</h2>
+<p>Look up the system requirements of your favorite titles. Competitive shooters, large open-world games and indie titles demand very different hardware.</p>
+<h2>Choose a platform first</h2>
+<p>Console, PC and handheld each carry different upfront and ongoing costs, including subscriptions and game prices.</p>
+<h2>Prioritize what you touch and see</h2>
+<p>A comfortable controller or mouse and a screen with a suitable refresh rate shape the experience as much as raw power. A stable internet connection and clear headphones matter too.</p>
+<h2>Buy smart</h2>
+<p>Used gear can save money, but check return policies and seller ratings. Upgrade one part at a time instead of buying everything at once.</p>
+</template>
+<template id="a-free-up-phone-storage">
+<h1>How to Free Up Phone Storage Without Deleting Photos</h1>
+<p>A full phone slows you down and can block updates. These steps free space without touching your photo library. Menu names vary by device and software version.</p>
+<h2>See what is using space</h2>
+<p>Open Storage in your phone's settings to see the biggest apps and file types.</p>
+<h2>Remove what you do not use</h2>
+<p>Uninstall or offload apps you have not opened in months; you can reinstall them later. Delete finished offline downloads such as podcasts, music and videos, which can be downloaded again.</p>
+<h2>Clear temporary data</h2>
+<p>Streaming, social and map apps can store large amounts of cache. Clear it from the app settings or the storage menu. Also review large message attachments such as old videos.</p>
+<h2>Check again</h2>
+<p>Restart the phone and recheck your storage. If space is still tight, consider cloud storage for files you rarely open.</p>
+</template>
+<template id="p-about"><h1>About Us</h1>
+<p>US Digital Magazine is an independent online magazine that publishes practical guides on artificial intelligence, technology, productivity, and gaming and entertainment for readers in the United States.</p>
+<h2>What we cover</h2>
+<ul><li><strong>Artificial Intelligence:</strong> using AI tools sensibly, checking their output and understanding how they work.</li><li><strong>Technology:</strong> everyday devices, online safety and choosing technology that fits your needs.</li><li><strong>Productivity:</strong> planning, habits and organization.</li><li><strong>Gaming &amp; Entertainment:</strong> buying decisions and setup advice for gamers.</li></ul>
+<h2>Our goals</h2>
+<p>We aim to publish clear, original and useful articles, to cite reliable sources when we use facts, and to correct mistakes. Articles marked <span class="badge">Draft</span> are short versions that are still being expanded.</p>
+<h2>Who publishes this site</h2>
+<p class="owner">Published by: YOUR NAME OR TEAM</p>
+<p>Found a mistake? <a href="#/contact">Contact us</a>.</p>
+</template>
+<template id="p-contact"><h1>Contact Us</h1>
+<p>Send questions, corrections or business inquiries to <a href="mailto:intentopasarmext@gmail.com">intentopasarmext@gmail.com</a>. Please include the article title if you are reporting a correction.</p>
+<h2>Message form</h2>
+<form action="mailto:intentopasarmext@gmail.com" method="post" enctype="text/plain" style="display:grid;gap:.8rem">
+<label>Name<br><input name="name" required autocomplete="name" style="width:100%;padding:.5rem"></label>
+<label>Email<br><input type="email" name="email" required autocomplete="email" style="width:100%;padding:.5rem"></label>
+<label>Message<br><textarea name="message" rows="6" required style="width:100%;padding:.5rem"></textarea></label>
+<button style="padding:.6rem 1rem;background:var(--accent);color:#fff;border:0;border-radius:8px;font-weight:700;cursor:pointer">Open in my email app</button></form>
+<p class="meta">Sending opens your email app with the message ready to send.</p>
+</template>
+<template id="p-privacy"><h1>Privacy Policy</h1>
+<p>Last updated: November 24, 2026.</p>
+<h2>Overview</h2><p>US Digital Magazine is a content website. It does not offer accounts, comments or purchases. This policy explains how information may be handled when you visit.</p>
+<h2>Information handled by hosting providers</h2><p>Whoever hosts this site may automatically process technical data such as IP address, browser type and the pages requested. Review your host's privacy policy.</p>
+<h2>Local storage</h2><p>If you choose light or dark mode, the site saves that choice in your browser. It stays on your device.</p>
+<h2>Email</h2><p>If you write to intentopasarmext@gmail.com, we use your message only to reply to you.</p>
+<h2>Advertising</h2><p>This site may display Google AdSense ads in the future. If ads are shown, Google and its partners may use cookies or similar technologies to show and measure ads, including ads based on prior visits to this or other websites. You can manage personalized ads at <a href="https://adssettings.google.com" rel="noopener">Google Ads Settings</a>. Where required, visitors will be offered choices about consent.</p>
+<h2>Children</h2><p>This site is not directed to children under 13.</p>
+<h2>Your choices</h2><p>Depending on where you live, you may have rights to access or delete personal information. <a href="#/contact">Contact us</a> to ask.</p>
+</template>
+<template id="p-terms"><h1>Terms and Conditions</h1>
+<p>Last updated: November 24, 2026.</p>
+<h2>Acceptance</h2><p>By using this website you agree to these terms.</p>
+<h2>General information only</h2><p>Articles are for general information and education. They are not professional, legal, financial, medical or security advice. Products, prices and features change, so verify details before you act.</p>
+<h2>Content ownership</h2><p>The articles and design are published by the site owner. You may quote short excerpts with a clear link to the original page. Please do not republish full articles without permission.</p>
+<h2>Third-party links and ads</h2><p>Links and advertisements lead to sites we do not control. We are not responsible for their content or practices.</p>
+<h2>No warranty</h2><p>The site is provided as is, and we make no promises that it is error-free or always available. To the extent allowed by law, we are not liable for losses arising from its use.</p>
+<h2>Changes</h2><p>We may update these terms. Continued use means you accept the updated version.</p>
+</template>
+
+<script>
+(()=>{"use strict";
+/* ===== SITE SETTINGS: edit these ===== */
+/* domain: leave "" until you own one, e.g. "https://yourdomain.com" (no trailing slash). owner: your name or team, or "" to hide it. */
+const CFG={domain:"",email:"intentopasarmext@gmail.com",owner:""};
+/* ===== ADSENSE: ads stay OFF until you fill this in =====
+   1. Set enabled:true  2. client:"ca-pub-..." (from your AdSense account)
+   3. Paste an ad unit ID in each slot you want. Empty slot = no ad there. */
+const ADS={enabled:false,client:"",slots:{intro:"",middle:"",end:"",home:""}};
+/* ===== ADD ARTICLES: 1) add an object here  2) add <template id="a-SLUG"> below =====
+   Fields: slug, title, cat (ai|tech|prod|gaming), date/updated (YYYY-MM-DD), desc, status ("published"|"draft"),
+   optional image + imageAlt (an image you own or are licensed to use).
+   Backlog ideas (not written yet): AI tools for everyday productivity; beginner's guide to generative AI; common AI mistakes;
+   essential tech skills; protecting personal information online; smartphone productivity features; choosing technology;
+   building daily habits; digital organization; managing distractions; time management; choosing a gaming monitor;
+   gaming accessories; improving a gaming setup on a budget; buying a gaming PC. */
+const SITE="US Digital Magazine",DEF="Practical guides on artificial intelligence, technology and productivity for everyday users in the United States.";
+const CATS={ai:"Artificial Intelligence",tech:"Technology",prod:"Productivity",gaming:"Gaming & Entertainment"};
+const PAGES={"about":"About Us","contact":"Contact Us","privacy":"Privacy Policy","terms":"Terms and Conditions"};
+const ARTICLES=[{"slug": "ai-prompt-basics", "title": "How to Write Clearer Prompts for AI Chatbots", "cat": "ai", "date": "2026-11-24", "min": 4, "desc": "A five-step checklist for getting more useful answers from any AI chatbot.", "status": "published", "updated": "2026-11-24"}, {"slug": "spot-phishing-emails", "title": "How to Spot a Phishing Email: 7 Warning Signs", "cat": "tech", "date": "2026-11-23", "min": 4, "desc": "Seven checks that help you recognize a fake email before you click.", "status": "published", "updated": "2026-11-24"}, {"slug": "fact-check-ai-answers", "title": "How to Fact-Check AI Answers Before You Use Them", "cat": "ai", "date": "2026-11-22", "min": 4, "desc": "A simple routine for catching mistakes in chatbot answers.", "status": "published", "updated": "2026-11-24"}, {"slug": "plan-your-week-20-minutes", "title": "How to Plan Your Week in 20 Minutes", "cat": "prod", "date": "2026-11-21", "min": 4, "desc": "A simple weekly planning routine you can repeat every Sunday or Monday.", "status": "published", "updated": "2026-11-24"}, {"slug": "declutter-inbox-and-files", "title": "How to Declutter Your Inbox and Digital Files", "cat": "prod", "date": "2026-11-20", "min": 4, "desc": "A step-by-step cleanup for email, downloads and cloud storage.", "status": "published", "updated": "2026-11-24"}, {"slug": "budget-gaming-setup-priorities", "title": "What Matters Most When Building a Budget Gaming Setup", "cat": "gaming", "date": "2026-11-19", "min": 5, "desc": "Where to spend first when your gaming budget is limited.", "status": "published", "updated": "2026-11-24"}, {"slug": "free-up-phone-storage", "title": "How to Free Up Phone Storage Without Deleting Photos", "cat": "tech", "date": "2026-11-18", "min": 4, "desc": "Practical ways to reclaim space on iPhone and Android.", "status": "published", "updated": "2026-11-24"}].sort((a,b)=>b.date.localeCompare(a.date));
+const $=s=>document.querySelector(s);
+const el=(t,o={},k=[])=>{const e=document.createElement(t);for(const n in o)n==="text"?e.textContent=o[n]:e.setAttribute(n,o[n]);k.forEach(c=>e.append(c));return e};
+const fmt=d=>new Date(d+"T12:00:00").toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric"});
+const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+const body=a=>a._t||(a._t=document.getElementById("a-"+a.slug).content.textContent.toLowerCase());
+const mins=a=>Math.max(1,Math.round(body(a).trim().split(/\s+/).length/225));
+const menu=$("#menu"),nav=$("#nav"),view=$("#view");
+if(CFG.domain){document.head.append(el("link",{rel:"canonical",href:CFG.domain+"/"}),el("meta",{property:"og:url",content:CFG.domain+"/"}))}
+$("#nav ul").innerHTML='<li><a href="#/">Home</a></li>'+Object.entries(CATS).map(([k,v])=>`<li><a href="#/category/${k}">${v}</a></li>`).join("");
+$("#yr").textContent=new Date().getFullYear();
+/* dark/light mode */
+const root=document.documentElement,tb=$("#theme");
+const apply=t=>{root.dataset.theme=t;tb.textContent=t==="dark"?"Light":"Dark";tb.setAttribute("aria-pressed",t==="dark")};
+let saved=null;try{saved=localStorage.getItem("theme")}catch(e){}
+apply(saved||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light"));
+tb.addEventListener("click",()=>{const t=root.dataset.theme==="dark"?"light":"dark";apply(t);try{localStorage.setItem("theme",t)}catch(e){}});
+menu.addEventListener("click",()=>menu.setAttribute("aria-expanded",nav.classList.toggle("open")));
+$("#sf").addEventListener("submit",e=>{e.preventDefault();const q=$("#q").value.trim();location.hash="#/"+(q?"?q="+encodeURIComponent(q):"")});
+/* SEO helpers */
+const setm=(s,v)=>{const m=$(s);m&&m.setAttribute("content",v)};
+const meta=(t,d)=>{d=d||DEF;document.title=t;setm("meta[name=description]",d);setm("meta[property='og:title']",t);setm("meta[property='og:description']",d);setm("meta[property='og:url']",CFG.domain+"/"+location.hash)};
+const ld=o=>{let s=$("#ld");if(!s){s=el("script",{id:"ld",type:"application/ld+json"});document.head.append(s)}s.textContent=JSON.stringify(o)};
+/* AdSense slot (returns null while ads are off) */
+let adJs=false;
+function ad(name){
+ if(!ADS.enabled||!ADS.client||!ADS.slots[name])return null;
+ if(!adJs){adJs=true;const s=el("script",{async:"",crossorigin:"anonymous",src:"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client="+ADS.client});document.head.append(s)}
+ const d=el("aside",{class:"ad","aria-label":"Advertisement"},[el("small",{text:"Advertisement"}),el("ins",{class:"adsbygoogle",style:"display:block","data-ad-client":ADS.client,"data-ad-slot":ADS.slots[name],"data-ad-format":"auto","data-full-width-responsive":"true"})]);
+ setTimeout(()=>{try{(window.adsbygoogle=window.adsbygoogle||[]).push({})}catch(e){}},0);return d}
+const card=a=>el("article",{class:"card"},[el("p",{class:"meta",text:`${CATS[a.cat]} | ${mins(a)} min read${a.status==="draft"?" | Draft":""}`}),el("h3",{},[el("a",{href:"#/article/"+a.slug,text:a.title})]),el("p",{text:a.desc}),el("p",{class:"meta",text:"Updated "+fmt(a.updated||a.date)})]);
+function home(cat,q){
+ const res=ARTICLES.filter(a=>(!cat||a.cat===cat)&&(!q||(a.title+" "+a.desc+" "+CATS[a.cat]+" "+body(a)).toLowerCase().includes(q.toLowerCase())));
+ meta(cat?`${CATS[cat]} | ${SITE}`:`${SITE} | Practical AI, Tech and Productivity Guides`,cat?`Guides about ${CATS[cat]}.`:DEF);
+ ld({"@context":"https://schema.org","@type":"WebSite",name:SITE,...(CFG.domain?{url:CFG.domain+"/"}:{})});
+ const chips=el("nav",{class:"chips","aria-label":"Categories"},[el("a",{href:"#/",text:"All",...(!cat&&!q?{"aria-current":"true"}:{})}),...Object.keys(CATS).map(k=>el("a",{href:"#/category/"+k,text:CATS[k],...(cat===k?{"aria-current":"true"}:{})}))]);
+ const grid=el("section",{class:"grid","aria-live":"polite"});
+ if(!res.length)grid.append(el("p",{text:"No articles match yet. Try another search or browse all categories."}));
+ res.forEach(a=>grid.append(card(a)));
+ const t=q?`Results for "${q}"`:cat?CATS[cat]:"Practical guides for working smarter with AI and tech";
+ view.append(el("div",{class:"wrap"},[el("section",{class:"hero"},[el("h1",{text:t}),...(cat||q?[]:[el("p",{text:"Clear how-tos on artificial intelligence, technology and productivity."})])]),chips,grid,...[ad("home")].filter(Boolean)]));
+}
+function article(a){
+ const draft=a.status==="draft",w=el("article",{class:"post"});
+ w.append(document.getElementById("a-"+a.slug).content.cloneNode(true));
+ w.querySelector("p.meta")&&w.querySelector("p.meta").remove();
+ const h1=w.querySelector("h1"),hs=[...w.querySelectorAll("h2")];
+ hs.forEach(x=>x.id="s-"+slug(x.textContent));
+ const m=el("p",{class:"meta"},[el("a",{href:"#/category/"+a.cat,text:CATS[a.cat]}),` | ${mins(a)} min read | Updated ${fmt(a.updated||a.date)} `]);
+ if(draft)m.append(el("span",{class:"badge",text:"Draft"}));
+ h1.before(m);
+ let last=h1;
+ if(draft){const d=el("p",{class:"draft",text:"This is a short draft. A full-length, sourced version is being prepared."});last.after(d);last=d}
+ if(a.image){const f=el("figure",{},[el("img",{src:a.image,alt:a.imageAlt||a.title,width:"1200",height:"630"})]);last.after(f);last=f}
+ const intro=[...w.children].find(c=>c.tagName==="P"&&!c.classList.contains("meta")&&!c.classList.contains("draft"));
+ if(hs.length>=5&&!draft){
+  const toc=el("nav",{class:"toc","aria-label":"Table of contents"},[el("strong",{text:"In this article"}),el("ol",{},hs.map(x=>el("li",{},[el("a",{href:"#/article/"+a.slug,"data-to":x.id,text:x.textContent})])))]);
+  toc.addEventListener("click",e=>{const l=e.target.closest("a[data-to]");if(l){e.preventDefault();document.getElementById(l.dataset.to).scrollIntoView()}});
+  intro.after(toc)}
+ if(!draft){const i=ad("intro");i&&intro.after(i);if(hs.length>=6){const x=ad("middle");x&&hs[Math.floor(hs.length/2)].before(x)}}
+ const u=encodeURIComponent(location.href),t=encodeURIComponent(a.title),L=(n,hr)=>el("a",{href:hr,target:"_blank",rel:"noopener noreferrer",text:n});
+ const copy=el("button",{type:"button",text:"Copy link"});
+ copy.addEventListener("click",()=>{(navigator.clipboard?navigator.clipboard.writeText(location.href):Promise.reject()).then(()=>copy.textContent="Copied").catch(()=>copy.textContent="Copy from address bar")});
+ const sh=el("div",{class:"share",role:"group","aria-label":"Share this article"},[el("strong",{text:"Share:"}),copy,L("X","https://twitter.com/intent/tweet?url="+u+"&text="+t),L("Facebook","https://www.facebook.com/sharer/sharer.php?u="+u),L("LinkedIn","https://www.linkedin.com/sharing/share-offsite/?url="+u),L("Email","mailto:?subject="+t+"&body="+u)]);
+ w.append(sh);const e=!draft&&ad("end");e&&w.append(e);
+ const rel=ARTICLES.filter(x=>x.slug!==a.slug).sort((x,y)=>(y.cat===a.cat)-(x.cat===a.cat)).slice(0,3);
+ view.append(w,el("section",{class:"related"},[el("h2",{text:"Related articles"}),el("div",{class:"grid"},rel.map(card))]));
+ meta(`${a.title} | ${SITE}`,a.desc);
+ const faq=[...w.querySelectorAll(".faq details")].map(d=>({"@type":"Question",name:d.querySelector("summary").textContent,acceptedAnswer:{"@type":"Answer",text:d.querySelector("p").textContent}}));
+ const art={"@context":"https://schema.org","@type":"Article",headline:a.title,description:a.desc,datePublished:a.date,dateModified:a.updated||a.date,author:CFG.owner?{"@type":"Person",name:CFG.owner}:{"@type":"Organization",name:SITE},publisher:{"@type":"Organization",name:SITE}};
+ ld(faq.length?[art,{"@context":"https://schema.org","@type":"FAQPage",mainEntity:faq}]:art);
+}
+function route(){
+ const [path,qs]=location.hash.replace(/^#\/?/,"").split("?"),p=path.split("/").filter(Boolean);
+ view.innerHTML="";nav.classList.remove("open");menu.setAttribute("aria-expanded","false");
+ const a=p[0]==="article"&&ARTICLES.find(x=>x.slug===p[1]);
+ if(a)article(a);
+ else if(PAGES[p[0]]){const w=el("div",{class:"page"});w.append(document.getElementById("p-"+p[0]).content.cloneNode(true));
+  w.innerHTML=w.innerHTML.split("intentopasarmext@gmail.com").join(CFG.email).split("YOUR NAME OR TEAM").join(CFG.owner);
+  if(!CFG.owner){const o=w.querySelector(".owner");o&&o.remove()}
+  view.append(w);meta(`${PAGES[p[0]]} | ${SITE}`)}
+ else if(!p.length||p[0]==="category")home(p[0]==="category"&&CATS[p[1]]?p[1]:null,new URLSearchParams(qs||"").get("q")||"");
+ else{view.append(el("div",{class:"page"},[el("h1",{text:"Page not found"}),el("p",{},[el("a",{href:"#/",text:"Back to the homepage"})])]));meta("Page not found | "+SITE)}
+ const cur=a?"#/category/"+a.cat:(location.hash.split("?")[0]||"#/");document.querySelectorAll("#nav a").forEach(l=>l.getAttribute("href")===cur?l.setAttribute("aria-current","page"):l.removeAttribute("aria-current"));
+ window.scrollTo(0,0);view.focus({preventScroll:true});
+}
+addEventListener("hashchange",route);route();
+})();
+</script>
+</body>
+</html>
